@@ -25,12 +25,12 @@ export class GeneralMessages {
 
     const promText = `
 🎉 <b>LIMITED-TIME OFFER (24hrs)</b>🎉
-For a <b>One-Time</b> payment of only <b>0.1 SOL</b>, track up to <b>**50 wallets LIFETIME**</b>
+For a <b>One-Time</b> payment of only <b>0.1 SOL</b>, track up to <b>**500 wallets LIFETIME**</b>
 
 Don’t miss out on this exclusive deal to supercharge your wallet tracking without any monthly subscriptions!
 `
     const messageText = `
-🐱 Handi Cat | Wallet Tracker
+DegenTogether | Wallet Tracker
 
 Get real time activity notifications for any wallet you add!
 
@@ -46,11 +46,11 @@ To ensure smooth performance for everyone, free wallets may be cleaned up period
   }
 
   static startMessageGroup = `
-🐱 Handi Cat | Wallet Tracker
+DegenTogether | Wallet Tracker
 
 Get real time activity notifications for any wallet you add!
 
-You must have a Handi Cat <b>PRO</b> or <b>WHALE</b> subscription to use this bot in a group
+You must have a DegenTogether <b>PRO</b> or <b>WHALE</b> subscription to use this bot in a group
 
 <b>These are the commands available:</b>
 - /add Add a new wallet
@@ -68,7 +68,7 @@ You must have a Handi Cat <b>PRO</b> or <b>WHALE</b> subscription to use this bo
     const planWallet = planWallets[plan]
 
     const messageText = `
-😸 Success! Your plan has been upgraded to <b>${plan}</b>.
+Degens Success! Your plan has been upgraded to <b>${plan}</b>.
 Your subscription will renew at ${subscriptionEnd}
 
 You can now track up to <b>${planWallet}</b> wallets at the time!
@@ -80,7 +80,7 @@ You can now track up to <b>${planWallet}</b> wallets at the time!
   static insufficientBalanceMessage: string = `
 😿 Ooops it seems that you don't have sufficient balance to perform this transaction.
 
-You can try by adding some <b>SOL</b> to your Handi Cat personal wallet 😺
+You can try by adding some <b>SOL</b> to your DegenTogether personal wallet 😺
 `
 
   static userAlreadyPaidMessage(action: 'CODE' | 'PLAN'): string {
@@ -108,11 +108,11 @@ You can try by upgrading your <b>plan</b> for more wallets 💎
 
 You probaly don't have sufficient balance in your wallet or it can't cover the transaction fees.
 
-Maybe try adding some <b>SOL</b> to your Handi Cat personal wallet 😺
+Maybe try adding some <b>SOL</b> to your DegenTogethert personal wallet 😺
 `
 
   static botWalletError: string = `
-😿 Oops! it seems that this wallet is spamming to many tps, Please enter another wallet or try again later.
+😿 Oops dont break it! it seems that this wallet is spamming to many tps, Please enter another wallet or try again later.
 `
 
   static groupsMessage(userGroups: UserGroup[]) {
@@ -132,29 +132,29 @@ Maybe try adding some <b>SOL</b> to your Handi Cat personal wallet 😺
             .join('\n\n')
 
     const messageText = `
-You can now use <b>Handi Cat</b> in any group chat!
+You can now use <b>DegenTogether</b> in any group chat!
 
 Your groups: (${userGroups.length} / ${MAX_USER_GROUPS})
 ${groupsContent}
-Learn how to add <b>Handi Cat</b> to a group chat: /help_group
+Learn how to add <b>DegenTogether</b> to a group chat: /help_group
 `
     return messageText
   }
 
   static groupChatNotStarted = `
-🚫 You cannot change Handi Cat settings in this group
+🚫 You cannot change DegenTogether settings in this group
 
 Bot is not initiated. Send /start
 `
 
   static groupChatNotActivated = `
-🚫 You cannot change Handi Cat settings in this group
+🚫 You cannot change DegenTogether settings in this group
 
 Bot is not activated. Send /activate
 `
 
   static userNotAuthorizedInGroup = `
-🚫 You cannot change Handi Cat settings in this group
+🚫 You cannot change DegenTogether settings in this group
 
 you are not authorized to perform this action.
 `

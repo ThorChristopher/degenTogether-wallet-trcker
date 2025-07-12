@@ -3,14 +3,14 @@ export class DonateMessages {
 
   static donateMessage(userWallet?: string | undefined): string {
     const messageText = `
-⭐ <b>Support the future of Handi Cat</b>
+⭐ <b>Support the future of DegenTogether</b>
 
-Every donation helps keep the bot running and contributes to new features 🐱✨
+Every donation helps keep the bot running and contributes to new features degens 🐱✨
 
 No donation is too small, and every bit of support is appreciated!
 
 To donate:
-1️⃣ Send any amount of <b>SOL</b> to your <b>Handi Cat wallet</b>.
+1️⃣ Send any amount of <b>SOL</b> to your <b>DegenTogether wallet</b>.
 2️⃣ Select one of the <b>options</b> below or simply <b>type</b> the amount you'd like to donate (e.g., for 0.01 SOL, just type "0.01").
 
 <b>Your Handi Cat wallet:</b> <code>${userWallet ? userWallet : ''}</code>
@@ -20,9 +20,9 @@ To donate:
   }
 
   static donationMadeMessage: string = `
-😸 <b>Success!</b> Thank you for your generous donation! 🎉
+😸degens <b>Success!</b> Thank you for your generous donation! 🎉
 
-Your support helps keep Handi Cat growing and improving, allowing us to bring you exciting new features and better services.
+Your support helps keep DegenTogether growing and improving, allowing us to bring you exciting new features and better services.
 
 Every donation makes a difference, and we are incredibly grateful for your contribution. 💖
 

@@ -39,7 +39,7 @@ ${subscriptionPlan !== 'FREE' ? `<b>Your subscription will renew <u>${formattedD
 <b>WHALE</b>: ${MAX_WHALE_WALLETS} wallets - ${WHALE_PLAN_FEE / 1e9} <b>SOL</b> / month
 
 <b>How to upgrade your plan?</b>
-1. Transfer the required <b>SOL</b> to your <b>Handi Cat</b> wallet: <code>${user?.personalWalletPubKey}</code>
+1. Transfer the required <b>SOL</b> to your <b>DegenTogether</b> wallet: <code>${user?.personalWalletPubKey}</code>
 2. Now you can select one of the plans below!
 `
 
@@ -47,7 +47,7 @@ ${subscriptionPlan !== 'FREE' ? `<b>Your subscription will renew <u>${formattedD
   }
 
   static groupChatNotPro = `
-🚫 You can only add Handi Cat to a group if you have a <b>PRO</b> or a <b>WHALE</b> subscription.
+🚫 You can only add DegenTogethert to a group if you have a <b>PRO</b> or a <b>WHALE</b> subscription.
 
 You can upgrade your plan directly from our official bot:
 
@@ -55,7 +55,7 @@ You can upgrade your plan directly from our official bot:
 `
 
   static userUpgradeGroups = `
-To add <b>Handi Cat</b> to Groups, you need a <b>PRO</b> or <b>WHALE</b> subscription
+To add <b>DegenTogether</b> to Groups, you need a <b>PRO</b> or <b>WHALE</b> subscription
 
 <b>Click the button below to upgrade your subscription and access to our exclusive features!</b>
 `
@@ -69,11 +69,11 @@ To add a new group, please remove an existing one.
     return `
 🔔 <b>Subscription Renewal Reminder</b>
 
-Hello ${userName}, 
+Alaye ${userName}, 
 
 Your <b>${planName}</b> plan is set to renew <b>Tomorrow</b>. 
 
-To ensure a successful renewal, please make sure your <b>Handi Cat wallet</b> has the necessary funds.
+To ensure a successful renewal, please make sure your <b>DegenTogether Wallet</b> has the necessary funds.
 
 Thank you for staying with us!
 `
@@ -81,7 +81,7 @@ Thank you for staying with us!
 
   static planRenewedMessage(subscriptionEnd: string) {
     return `
-🎉 Your plan has been successfully renewed! 🐱✨  
+🎉 baba olowo Your plan has been successfully renewed! 🐱✨  
 ✅ Next renewal date: <b>${subscriptionEnd}</b>
 
 Thank you for staying with us! 💖

@@ -7,8 +7,7 @@ export class WalletMessages {
     this.userBalances = new UserBalances()
   }
 
-  static addWalletMessage: string = `
-🐱 Ok, just send me a wallet address to track:
+  static addWalletMessage: string = `Omo Werey, just send me a wallet address to track:
 
 You can also give that wallet a name by following the address with the desired name, or add multiple wallets at once by sending them each on a new line for example: 
 
